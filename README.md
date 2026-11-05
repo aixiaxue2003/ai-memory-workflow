@@ -4,6 +4,20 @@
 
 不是"笔记模板"，是一套能跑的工作流：每个动作都有脚本、有产物，能挂在定时任务上。
 
+## 国内下载（GitHub 直连很慢，走镜像）
+
+本机实测：GitHub 首页 530KB 要 7.8 秒，Release 附件直连 25 秒都下不完。
+
+- 仓库：https://github.com/aixiaxue2003/ai-memory-workflow
+- 镜像下载 zip（实测 4.3 秒，20,731 字节）：
+
+```bash
+curl -L -o ai-memory-workflow-1.0.1.zip \
+  "https://ghfast.top/https://github.com/aixiaxue2003/ai-memory-workflow/releases/download/v1.0.1/ai-memory-workflow-1.0.1.zip"
+```
+
+`ghfast.top`、`gh-proxy.com` 两个前缀都能用，把原地址整段接在后面即可。
+
 ## 目录
 
 ```
